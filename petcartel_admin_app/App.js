@@ -6,6 +6,7 @@ import {
   SafeAreaView,
   View,
   Image,
+  StyleSheet,
 } from "react-native";
 import { WebView } from "react-native-webview";
 import Constants from "expo-constants";
@@ -91,8 +92,14 @@ export default function App(props) {
             justifyContent: "center",
           }}
         >
+        <Image  style={{
+          resizeMode: "contain",
+          height: 100,
+          width: 200
+        }} source={require("./assets/logo_big.png")}></Image>
           <Image  style={{
             resizeMode: "contain",
+            marginBottom: 200,
             height: 100,
             width: 200
           }} source={require("./assets/dog.gif")}></Image>
@@ -109,4 +116,14 @@ export default function App(props) {
       )}
     </SafeAreaView>
   );
-}
+};
+
+const styles = StyleSheet.create({
+
+  splash: {
+    height: 80,
+    width:50
+  },
+    
+
+});
