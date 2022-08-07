@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "PetCartel Admin",
+    "slug": "petcartel_admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/petcartel_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo_big.png",
+      "resizeMode": "contain",
+      "height": 50,
+      "width": 80,
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/petcartel_logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.petcartel.admin"
+    },
+    "web": {
+      "favicon": "./assets/petcartel_logo.png"
+    }
+  }
+}
